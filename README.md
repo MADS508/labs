@@ -4,8 +4,8 @@ This repo is adapted from the official [Data Science on AWS repo](https://github
 
 # Important!
 
-In AWS Learner Labs once you reach $100 all of your code will be automatically destroyed. In addition, AWS Learner Labs has occasional issues where your environment is not accessible.
-**Be sure that you are ALWAYS storing your code in GitHub. You will not be given extra time to complete an assignment due to your Learner Lab deleting your code.**
+- In AWS Learner Labs once you reach $100 all of your code will be automatically destroyed. In addition, AWS Learner Labs has occasional issues where your environment is not accessible.
+- **Be sure that you are ALWAYS storing your code in GitHub. You will not be given extra time to complete an assignment due to your Learner Lab deleting your code.**
 
 
 # Setup Instructions
@@ -41,7 +41,7 @@ Search for and select `SageMaker`
 Select `Studio` and then `Launch Sagemaker Studio`
 ![Notebook Instances](img/stu_notebook_instances_9.png)
 
-Use the `Quick Setup` option with the `LabRole`. Ignore any `Access Denied` error messages that appear.
+Use the `Quick Setup` option with the `LabRole`. Use the name ``lab``, you will also want to make a second Studio named ``project`` which you will connect to your teams github repo (as oposed to the lab repo). Ignore any `Access Denied` error messages that appear.
 ![Quick Start](img/sm-quickstart-iam-existing.png)
 
 Wait 10-15 minutes for the studio to build. It only takes this long on initial setup, in the future it will take 2-3 minutes to access an existing studio.
@@ -54,22 +54,7 @@ Wait 2-3 minutes for the studio to launch.
 ![Loading Studio](img/studio_loading.png)
 
 
-## 3. Update IAM Role
-
-Open the [AWS Management Console](https://console.aws.amazon.com/console/home)
-
-Configure IAM to run the book examples.
-
-![IAM 1](img/sagemaker-iam-1.png)
-
-![IAM 2](img/sagemaker-iam-2.png)
-
-![IAM 3](img/sagemaker-iam-3.png)
-
-![Back to SageMaker](img/alt_back_to_sagemaker_8.png)
-
-
-## 4. Launch a New Terminal within Studio
+## 3. Launch a New Terminal within Studio
 
 Click `File` > `New` > `Terminal` to launch a terminal in your Jupyter instance.
 
