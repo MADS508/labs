@@ -1,11 +1,11 @@
 # ADS-508
-This repo is adapted from the official [Data Science on AWS repo](https://github.com/data-science-on-aws/) and adjusted to reflect the capabilities of AWS Learner Labs.
+This repo is adapted from the official [Data Science on AWS repo](https://github.com/data-science-on-aws/data-science-on-aws) and adjusted to reflect the capabilities of AWS Learner Labs.
 [![Data Science on AWS](img/data-science-on-aws-book.png)](https://www.amazon.com/Data-Science-AWS-End-End/dp/1492079391/)
 
 # Important!
 
 In AWS Learner Labs once you reach $100 all of your code will be automatically destroyed. In addition, AWS Learner Labs has occasional issues where your environment is not accessible.
-**Be sure that you are ALWAYS storing your code in GitHub. You will not be given extra time to complete an assignment due to your Learner Lab deleting your code.** I
+**Be sure that you are ALWAYS storing your code in GitHub. You will not be given extra time to complete an assignment due to your Learner Lab deleting your code.**
 
 
 # Setup Instructions
@@ -35,7 +35,7 @@ Within the Learner Lab Setup Guide follow the steps in the [Using Your Learner L
 
 In the AWS Console search bar, type `SageMaker` and select `Amazon SageMaker` to open the service console.
 
-Search for and select `Sagemaner`
+Search for and select `SageMaker`
 ![Search Box - SageMaker](img/search-box-sagemaker.png)
 
 Select `Studio` and then `Launch Sagemaker Studio`
