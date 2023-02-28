@@ -31,29 +31,7 @@ Within the Learner Lab Setup Guide follow the steps in the [Using Your Learner L
 4. Once the lab has loaded you will see a green dot to the right of the AWS status, click it to open the AWS console.
 ![LearnerLabStep4](img/LearnerLabsStep4.png)
 
-## 3. Update IAM Role
-
-Open the [AWS Management Console](https://console.aws.amazon.com/console/home)
-
-Navigate to the `IAM` AWS page.
-![IAM 0](img/sagemaker-iam-1.png)
-
-On the left side select `Role` then search for `lab` and click on `LabRole`.
-![IAM 1](img/IAMStep1.png)
-
-On the right side click the `Add permissions` dropdown button
-![IAM 2](img/IAMStep2.png)
-
-And select `Attach policies`
-![IAM 3](img/IAMStep3..png)
-
-Search for `AdministratorAccess`, then check the box to the left of the policy named `AdministratorAccess` and finally in the bottom right click the blue `Attach policies` button
-![IAM 4](img/IAMStep4.png)
-
-Then navigate back to the AWS SageMaker page.
-![Back to SageMaker](img/alt_back_to_sagemaker_8.png)
-
-## 4. Launch SageMaker Studio
+## 3. Launch SageMaker Studio
 
 In the AWS Console search bar, type `SageMaker` and select `Amazon SageMaker` to open the service console.
 
@@ -63,7 +41,7 @@ Search for and select `SageMaker`
 Select `Studio` and then `Launch Sagemaker Studio`
 ![Notebook Instances](img/stu_notebook_instances_9.png)
 
-Use the `Quick Setup` option with the `LabRole`. Use the name ``lab``, you will also want to make a second Studio named ``project`` which you will connect to your teams github repo (as oposed to the lab repo). Ignore any `Access Denied` error messages that appear.
+Use the `Quick Setup` option with the `LabRole`. Use the name ``lab``, you will also want to make a second Studio named ``project`` which you will connect to your teams github repo (as oposed to the lab repo). Turn off the `Enable Canvas base permissions` option.  Ignore any `Access Denied` error messages that appear.
 ![Quick Start](img/sm-quickstart-iam-existing.png)
 
 Wait 10-15 minutes for the studio to build. It only takes this long on initial setup, in the future it will take 2-3 minutes to access an existing studio.
@@ -76,14 +54,14 @@ Wait 2-3 minutes for the studio to launch.
 ![Loading Studio](img/studio_loading.png)
 
 
-## 5. Launch a New Terminal within Studio
+## 4. Launch a New Terminal within Studio
 
 Click `File` > `New` > `Terminal` to launch a terminal in your Jupyter instance.
 
 ![Terminal Studio](img/studio_terminal.png)
 
 
-## 6. Clone this GitHub Repo in the Terminal
+## 5. Clone this GitHub Repo in the Terminal
 
 Within the Terminal, run the following:
 
