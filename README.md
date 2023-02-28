@@ -46,7 +46,7 @@ Select `Studio` and then `Launch Sagemaker Studio`
 ![Notebook Instances](img/stu_notebook_instances_9.png)
 
 Use the `Quick Setup` option with the `LabRole`. Use the name ``lab``, you will also want to make a second Studio named ``project`` which you will connect to your teams github repo (as oposed to the lab repo). Turn off the `Enable Canvas base permissions` option.  Ignore any `Access Denied` error messages that appear.
-![Quick Start](img/sm-quickstart-iam-existing.png)
+![Quick Start](img/sm-quickstart-iam-existing-2.png)
 
 Wait 10-15 minutes for the studio to build. It only takes this long on initial setup, in the future it will take 2-3 minutes to access an existing studio.
 ![Pending Studio](img/studio_pending.png)
