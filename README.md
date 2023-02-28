@@ -9,6 +9,7 @@ This repo is adapted from the official [Data Science on AWS repo](https://github
 - In order to make it easy to complete labs and work on your project, it is highly reccomended that you follow the below process twice, once for a `lab` user and once for a `project` user (be sure you are saving your work from the `project` user in your own GitHub repository.
 
 
+
 # Setup Instructions
 
 ## 1. Login to AWS Learner Labs
@@ -30,6 +31,9 @@ Within the Learner Lab Setup Guide follow the steps in the [Using Your Learner L
 
 4. Once the lab has loaded you will see a green dot to the right of the AWS status, click it to open the AWS console.
 ![LearnerLabStep4](img/LearnerLabsStep4.png)
+
+
+## If the video indicates you need to attach an admin role, you can skip this step. As of Feb 2023 AWS Learner Labs no longer allows IAM role changes.
 
 ## 3. Launch SageMaker Studio
 
