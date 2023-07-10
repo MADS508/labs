@@ -24,7 +24,7 @@ Within the Learner Lab Setup Guide follow the steps in the [Using Your Learner L
 1. From the Dashboard select your course. Then click `modules`
 ![LearnerLabStep1](img/LearnerLabsStep1.png)
 
-2. Click `Learner Lab - Foundational Services`
+2. Click `Learner Lab`
 ![LearnerLabStep2](img/LearnerLabsStep2.png)
 
 3. In the top right click `Start Lab` This will take 2-3 minutes. Be sure to monitor your budget, once you reach $100 all of your code will be automatically destroyed. **Be sure that you are ALWAYS storing your code in GitHub. You will not be given extra time to complete an assignment due to your Learner Lab deleting your code.**
@@ -43,8 +43,8 @@ In the AWS Console search bar, type `SageMaker` and select `Amazon SageMaker` to
 Search for and select `SageMaker`
 ![Search Box - SageMaker](img/search-box-sagemaker.png)
 
-Select `Studio` and then `Launch Sagemaker Studio`
-![Notebook Instances](img/stu_notebook_instances_9.png)
+Select `Studio` and then click the button `Create Sagemaker domain`
+![Notebook Instances](img/sagemaker_domain.png)
 
 Use the `Quick Setup` option with the `LabRole`. Use the name ``lab``, you will also want to make a second Studio named ``project`` which you will connect to your teams github repo (as oposed to the lab repo). Turn off the `Enable Canvas base permissions` option.  Ignore any `Access Denied` error messages that appear.
 ![Quick Start](img/sm-quickstart-iam-existing-2.png)
