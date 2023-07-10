@@ -22,10 +22,10 @@ Be sure to read the [AWS Academy Learner Lab Student Guide.pdf](https://github.c
 Within the Learner Lab Setup Guide follow the steps in the [Using Your Learner Lab](https://ole.sandiego.edu/bbcswebdav/pid-2625324-dt-content-rid-35250884_1/xid-35250884_1) section.
 
 1. From the Dashboard select your course. Then click `modules`
-![LearnerLabStep1](img/LearnerLabsStep1.png)
+![LearnerLabStep1](img/LearnerLabsStep1_2.png)
 
 2. Click `Learner Lab`
-![LearnerLabStep2](img/LearnerLabsStep2.png)
+![LearnerLabStep2](img/LearnerLabsStep2_2.png)
 
 3. In the top right click `Start Lab` This will take 2-3 minutes. Be sure to monitor your budget, once you reach $100 all of your code will be automatically destroyed. **Be sure that you are ALWAYS storing your code in GitHub. You will not be given extra time to complete an assignment due to your Learner Lab deleting your code.**
 ![LearnerLabStep3](img/LearnerLabsStep3.png)
