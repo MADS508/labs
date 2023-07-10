@@ -15,7 +15,8 @@ This repo is adapted from the official [Data Science on AWS repo](https://github
 ## 1. Login to AWS Learner Labs
 
 ![Console](img/aws_console.png)
-Be sure to read the [Learner Lab Setup Guide](https://ole.sandiego.edu/bbcswebdav/pid-2625324-dt-content-rid-35250884_1/xid-35250884_1)
+Be sure to read the [AWS Academy Learner Lab Student Guide.pdf](https://github.com/MADS508/labs/files/12005191/AWS.Academy.Learner.Lab.Student.Guide.pdf)
+
 
 ## 2. Launch the AWS Lab
 Within the Learner Lab Setup Guide follow the steps in the [Using Your Learner Lab](https://ole.sandiego.edu/bbcswebdav/pid-2625324-dt-content-rid-35250884_1/xid-35250884_1) section.
