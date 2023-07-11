@@ -11,8 +11,7 @@ This repo is adapted from the official [Data Science on AWS repo](https://github
 
 
 # Setup Instructions
-[<img src="img/youtube_screen.png" width="100%">]([https://www.youtube.com/watch?v=Hc79sDi3f0U](https://www.youtube.com/watch?v=FI3fPXOUVLQ) "Setup Instructions")
-
+[<img src="img/youtube_screen.png" width="100%">](https://www.youtube.com/watch?v=FI3fPXOUVLQ)
 
 
 ## 1. Login to AWS Learner Labs
