@@ -9,10 +9,8 @@ This repo is adapted from the official [Data Science on AWS repo](https://github
 - In order to make it easy to complete labs and work on your project, it is highly reccomended that you follow the below process twice, once for a `lab` user and once for a `project` user (be sure you are saving your work from the `project` user in your own GitHub repository.
 
 
-
 # Setup Instructions
 [<img src="img/youtube_screen.png" width="100%">](https://www.youtube.com/watch?v=FI3fPXOUVLQ)
-
 
 ## 1. Login to AWS Learner Labs
 
@@ -45,8 +43,8 @@ In the AWS Console search bar, type `SageMaker` and select `Amazon SageMaker` to
 Search for and select `SageMaker`
 ![Search Box - SageMaker](img/search-box-sagemaker.png)
 
-Select `Studio` and then click the button `Create Sagemaker domain`
-![Notebook Instances](img/sagemaker_domain.png)
+Select `Studio` and then click the button `Set up for organization`
+![Notebook Instances](img/setup.png)
 
 Select the `Set up for organizations` option.
 ![Quick Start](img/sm-quickstart-iam-existing-2_1.png)
@@ -63,8 +61,12 @@ For How do you want to access studio, choose Login through IAM
 
 For StageMaker Studio, choose SageMaker Studio - Classic
 ![Sagemaker Studio New](img/SagemakerStudioClassic.png)
-Expand the Canvas section and disable both MLOps settings, and toggle off `Enable time series forecasting`
+
+Expand the Canvas section and disable both MLOps settings and disable `Enable local file uplload`
 ![Canvas](img/Canvas.png)
+
+Also toggle off `Enable time series`
+![Time Series](img/TimeSeries.png)
 
 For Network, choose public internet access.  Select an existing VPC and an existing subnet, then choose Next. Accept the default storage settings and choose Next, then choose Submit.
 ![Network](img/Network.png)
@@ -76,8 +78,31 @@ On the Review and create screen, confirm all of the settings followed the above,
 Wait 10-15 minutes for the studio to build. It only takes this long on initial setup, in the future it will take 2-3 minutes to access an existing studio.
 ![Pending Studio](img/studio_pending.png)
 
-Open the studio by clicking `Launch App` and then `Studio`
-![Open Studio](img/studio_open.png)
+Open the studio by clicking `Domain` and then select your domain name, it should be `lab`
+![Open Studio](img/SelectDomain.png)
+
+Select `User profiles` and then click `Add user`
+![Add User](img/AddUser.png)
+
+Leave the `General Settings` as is, execution role must be `LabRole`, click next.
+![User step 1](img/User1.png)
+
+Leave `Studio settings` as is and click next.
+![User step 2](img/User2.png)
+
+Leave `RStudio settings` as is and click next.
+![User step 3](img/User3.png)
+
+Turn off the following and then click `submit`
+- Enable Canvas base permissions
+- Enable Canvas Ready-to-use models
+- Enable document query using Amazon Kendra
+- Enable time series forecasting
+- Both ML Ops Configuration settings
+![User step 4](img/User4.png)
+
+Now click `Launch` and select `Studio`
+![Launch](img/Launch.png)
 
 Wait 2-3 minutes for the studio to launch.
 ![Loading Studio](img/studio_loading.png)
