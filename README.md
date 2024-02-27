@@ -48,9 +48,31 @@ Search for and select `SageMaker`
 Select `Studio` and then click the button `Create Sagemaker domain`
 ![Notebook Instances](img/sagemaker_domain.png)
 
-Use the `Quick Setup` option with the `LabRole`. Use the name ``lab``, you will also want to make a second Studio named ``project`` which you will connect to your teams github repo (as oposed to the lab repo). Turn off the `Enable Canvas base permissions` option.  Ignore any `Access Denied` error messages that appear.
-![Quick Start](img/sm-quickstart-iam-existing-2.png)
+Select the `Set up for organizations` option.
+![Quick Start](img/sm-quickstart-iam-existing-2_1.png)
 
+For the domain name enter `lab` and click next.
+![Domain Name](img/LearnerLabs_domain_name.png)
+
+For How do you want to access studio, choose Login through IAM
+- Leave Who will use Sagemaker blank
+- For What ML activities users will users perform, choose Use an existing role.
+- Set the Default execution role to LabRole
+- Choose Next.
+![Users](img/UsersandML.png)
+
+For StageMaker Studio, choose SageMaker Studio - Classic
+![Sagemaker Studio New](img/SagemakerStudioClassic.png)
+Expand the Canvas section and disable both MLOps settings, and toggle off `Enable time series forecasting`
+![Canvas](img/Canvas.png)
+
+For Network, choose public internet access.  Select an existing VPC and an existing subnet, then choose Next. Accept the default storage settings and choose Next, then choose Submit.
+![Network](img/Network.png)
+
+On the Storage screen, leave the settings as is and click next.
+![Storage](img/Storage.png)
+
+On the Review and create screen, confirm all of the settings followed the above, and click Submit.
 Wait 10-15 minutes for the studio to build. It only takes this long on initial setup, in the future it will take 2-3 minutes to access an existing studio.
 ![Pending Studio](img/studio_pending.png)
 
