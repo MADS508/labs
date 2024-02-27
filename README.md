@@ -135,3 +135,11 @@ may have crashed in this repository earlier:
 remove the file manually to continue.
 ```
 _Note:  Just re-run the command again until it works._
+
+## 6. Navigate to Lab 01
+- On the Left hand side click the icon of the folder
+- Click `labs`
+- Click `01_oreilly_book`
+- Double Click `01_Setup_Dependencies.ipynb`
+- **NEW FOR 2024** When you open a new file, Sagemaker will ask you to pick an environment. You must change the image to `Data Science 2.0` or the labs in this class will not run.
+![DS2](img/DS2.png)
