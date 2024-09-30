@@ -58,10 +58,15 @@ For the domain name enter `lab` and click next.
 
 For How do you want to access studio, choose Login through IAM
 - Leave Who will use Sagemaker blank
-- For What ML activities users will users perform, choose Use an existing role.
-- Set the Default execution role to LabRole
 - Choose Next.
-![Users](img/UsersandML.png)
+- If there is a red warning banner that complains about `There is an issue when requesting the service quota. Please try again.`, Ignore it it will not impact your Lab.
+![Users](img/UsersandML2.png)
+
+For Configure roles and ML activities
+- Select `Use an existing role`
+- Be sure LabRole is selected
+- Choose Next.
+![Users](img/UsersandML3.png)
 
 For StageMaker Studio, choose SageMaker Studio - Classic
 ![Sagemaker Studio New](img/SagemakerStudioClassic.png)
@@ -69,8 +74,11 @@ For StageMaker Studio, choose SageMaker Studio - Classic
 Expand the Canvas section and disable both MLOps settings and disable `Enable local file uplload`
 ![Canvas](img/Canvas.png)
 
-Also toggle off `Enable time series`
-![Time Series](img/TimeSeries.png)
+Unde `Canvas Ready-to-use models configuration` select `Use an existing execution role`
+- Find your AWS ID by clicking on your username in the top right of the screen.
+- ![Find AWS ID](img/FindAWSID.png)
+- Replace `834486164294` from `arn:aws:iam::834486164294:role/LabRole` with your account ID (removing the `-`s)
+![Time Series](img/CanvasIAM.png)
 
 For Network, choose public internet access.  Select an existing VPC and an existing subnet, then choose Next. Accept the default storage settings and choose Next, then choose Submit.
 ![Network](img/Network.png)
