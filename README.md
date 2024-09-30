@@ -74,7 +74,7 @@ For StageMaker Studio, choose SageMaker Studio - Classic
 Expand the Canvas section and disable both MLOps settings and disable `Enable local file uplload`
 ![Canvas](img/Canvas.png)
 
-Unde `Canvas Ready-to-use models configuration` select `Use an existing execution role`
+Under `Canvas Ready-to-use models configuration` select `Use an existing execution role`
 - Find your AWS ID by clicking on your username in the top right of the screen.
 - ![Find AWS ID](img/FindAWSID.png)
 - Replace `834486164294` from `arn:aws:iam::834486164294:role/LabRole` with your account ID (removing the `-`s)
@@ -99,22 +99,25 @@ Select `User profiles` and then click `Add user`
 Leave the `General Settings` as is, execution role must be `LabRole`, click next.
 ![User step 1](img/User1.png)
 
-Leave `Studio settings` as is and click next.
-![User step 2](img/User2.png)
+Under `SageMaker Studio` select `SageMaker Studio Classic`
+![ConfigureApplications1](img/ConfigureApplications1.png)
 
-Leave `RStudio settings` as is and click next.
-![User step 3](img/User3.png)
+Expand the Canvas section and disable both MLOps settings and disable `Enable local file uplload`
+![Canvas](img/Canvas.png)
 
-Turn off the following and then click `submit`
-- Enable Canvas base permissions
-- Enable Canvas Ready-to-use models
-- Enable document query using Amazon Kendra
-- Enable time series forecasting
-- Both ML Ops Configuration settings
-![User step 4](img/User4.png)
+Under `Canvas Ready-to-use models configuration` select `Use an existing execution role`
+- Find your AWS ID by clicking on your username in the top right of the screen.
+- ![Find AWS ID](img/FindAWSID.png)
+- Replace `834486164294` from `arn:aws:iam::834486164294:role/LabRole` with your account ID (removing the `-`s)
+![Time Series](img/CanvasIAM.png)
 
-Now click `Launch` and select `Studio`
-![Launch](img/Launch.png)
+On the `Customize Studio UI` screen click Next.
+On the `Data and Storage` screen, do not change anything, click Next.
+Click Submit.
+
+
+Click `User Profile` and on your user click `Launch` and select `Studio`
+![Launch](img/Launch2.png)
 
 Wait 2-3 minutes for the studio to launch.
 ![Loading Studio](img/studio_loading.png)
