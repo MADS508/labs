@@ -402,7 +402,7 @@ def _transform_tsv_to_tfrecord(file, max_seq_length, balance_dataset, prefix, fe
 
     filename_without_extension = Path(Path(file).stem).stem
 
-    df = pd.read_csv(file, delimiter="\t", quoting=csv.QUOTE_NONE, compression="gzip")
+    df = pd.read_csv(file, delimiter="\t", quoting=csv.QUOTE_NONE)
 
     df.isna().values.any()
     df = df.dropna()
@@ -562,7 +562,7 @@ def process(args):
         feature_group_name=args.feature_group_name,
     )
 
-    input_files = glob.glob("{}/*.tsv.gz".format(args.input_data))
+    input_files = glob.glob("{}/*.tsv".format(args.input_data))
 
     num_cpus = multiprocessing.cpu_count()
     print("num_cpus {}".format(num_cpus))
