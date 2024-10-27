@@ -112,7 +112,7 @@ def process(args):
     input_files = os.listdir(args.input_model)
     for file in input_files:
         print(file)
-    model_tar_path = "{}/model.tar".format(args.input_model)
+    model_tar_path = "{}/model.tar.gz".format(args.input_model)
     model_tar = tarfile.open(model_tar_path)
     model_tar.extractall(args.input_model)
     model_tar.close()
