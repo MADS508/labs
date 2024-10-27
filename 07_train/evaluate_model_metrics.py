@@ -112,7 +112,7 @@ def process(args):
     input_files = os.listdir(args.input_model)
     for file in input_files:
         print(file)
-    model_tar_path = "{}/model.tar.gz".format(args.input_model)
+    model_tar_path = "{}/model.tar".format(args.input_model)
     model_tar = tarfile.open(model_tar_path)
     model_tar.extractall(args.input_model)
     model_tar.close()
@@ -149,14 +149,14 @@ def process(args):
     )
 
     ###########################################################################################
-    # TODO:  Replace this with glob for all files and remove test_data/ from the model.tar.gz #
+    # TODO:  Replace this with glob for all files and remove test_data/ from the model.tar #
     ###########################################################################################
     #    evaluation_data_path = '/opt/ml/processing/input/data/'
 
     print("Listing contents of input data dir: {}".format(args.input_data))
     input_files = os.listdir(args.input_data)
 
-    test_data_path = "{}/amazon_reviews_us_Digital_Software_v1_00.tsv.gz".format(args.input_data)
+    test_data_path = "{}/amazon_reviews_us_Digital_Software_v1_00.tsv".format(args.input_data)
     print("Using only {} to evaluate.".format(test_data_path))
     df_test_reviews = pd.read_csv(test_data_path, delimiter="\t", quoting=csv.QUOTE_NONE, compression="gzip")[
         ["review_body", "star_rating"]
