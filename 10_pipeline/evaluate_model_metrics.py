@@ -158,7 +158,7 @@ def process(args):
 
     test_data_path = "{}/amazon_reviews_us_Digital_Software_v1_00.tsv".format(args.input_data)
     print("Using only {} to evaluate.".format(test_data_path))
-    df_test_reviews = pd.read_csv(test_data_path, delimiter="\t", quoting=csv.QUOTE_NONE, compression="gzip")[
+    df_test_reviews = pd.read_csv(test_data_path, delimiter="\t", quoting=csv.QUOTE_NONE)[
         ["review_body", "star_rating"]
     ]
 
