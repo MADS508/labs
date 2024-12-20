@@ -39,7 +39,7 @@ Within the Learner Lab Setup Guide follow the steps in the [Using Your Learner L
 
 ## 3. Launch SageMaker Studio
 
-In the AWS Console search bar, type `SageMaker` and select `Amazon SageMaker` to open the service console.
+In the AWS Console search bar, type `SageMaker` and select `Amazon SageMaker AI` to open the service console.
 
 Search for and select `SageMaker`
 ![Search Box - SageMaker](img/search-box-sagemaker.png)
