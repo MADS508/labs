@@ -57,13 +57,13 @@ For How do you want to access studio, choose Login through IAM
 - Leave Who will use Sagemaker blank
 - Choose Next.
 - If there is a red warning banner that complains about `There is an issue when requesting the service quota. Please try again.`, Ignore it it will not impact your Lab.
-![Users](img/UsersandML20.png)
+![Users](img/usersandMl20.png)
 
 For Configure roles and ML activities
 - Select `Use an existing role`
 - Be sure LabRole is selected
 - Choose Next.
-![Users](img/UsersandML3.png)
+![Users](img/usersandML3.png)
 
 For StageMaker Studio, choose SageMaker Studio - Classic
 ![Sagemaker Studio New](img/SagemakerStudioClassic.png)
