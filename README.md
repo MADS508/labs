@@ -37,8 +37,6 @@ Within the Learner Lab Setup Guide follow the steps in the [Using Your Learner L
 ![LearnerLabStep4](img/LearnerLabsStep4.png)
 
 
-## If the video indicates you need to attach an admin role, you can skip this step. As of Feb 2023 AWS Learner Labs no longer allows IAM role changes.
-
 ## 3. Launch SageMaker Studio
 
 In the AWS Console search bar, type `SageMaker` and select `Amazon SageMaker` to open the service console.
@@ -59,7 +57,7 @@ For How do you want to access studio, choose Login through IAM
 - Leave Who will use Sagemaker blank
 - Choose Next.
 - If there is a red warning banner that complains about `There is an issue when requesting the service quota. Please try again.`, Ignore it it will not impact your Lab.
-![Users](img/UsersandML2.png)
+![Users](img/UsersandML20.png)
 
 For Configure roles and ML activities
 - Select `Use an existing role`
