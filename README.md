@@ -63,7 +63,7 @@ For Configure roles and ML activities
 - Select `Use an existing role`
 - Be sure LabRole is selected
 - Choose Next.
-![Users](img/usersandML3.png)
+![Users](img/usersandMl3.png)
 
 For StageMaker Studio, choose SageMaker Studio - Classic
 ![Sagemaker Studio New](img/SagemakerStudioClassic.png)
