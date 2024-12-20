@@ -132,7 +132,7 @@ Once your JupyterLab space has been created, click the `Open` button.
 ## 4. Launch a New Terminal within JupyterLab
 
 Click `File` > `New` > `Terminal` to launch a terminal in your Jupyter instance.
-![Terminal Studio](img/studio_terminal.png)
+![Terminal Studio](img/studio_terminal2.png)
 
 
 ## 5. Clone this GitHub Repo in the Terminal
