@@ -65,10 +65,10 @@ For Configure roles and ML activities
 - Choose Next.
 ![Users](img/usersandMl3.png)
 
-For StageMaker Studio, choose SageMaker Studio - Classic
-![Sagemaker Studio New](img/SagemakerStudioClassic.png)
+Under `SageMaker Studio` select `SageMaker Studio New`. Under `JupyterLab`, turn on `Enable idle shutdown`.
+![ConfigureApplications1](img/ConfigureApplications1a.png)
 
-Expand the Canvas section and disable both MLOps settings and disable `Enable local file uplload`
+Expand the Canvas section and disable Amazon Q and disable both MLOps settings and disable `Enable local file upload`
 ![Canvas](img/Canvas.png)
 
 Under `Canvas Ready-to-use models configuration` select `Use an existing execution role`
@@ -96,10 +96,10 @@ Select `User profiles` and then click `Add user`
 Leave the `General Settings` as is, execution role must be `LabRole`, click next.
 ![User step 1](img/User1.png)
 
-Under `SageMaker Studio` select `SageMaker Studio Classic`
-![ConfigureApplications1](img/ConfigureApplications1.png)
+Under `SageMaker Studio` select `SageMaker Studio New`. Under `JupyterLab`, turn on `Enable idle shutdown`.
+![ConfigureApplications1](img/ConfigureApplications1a.png)
 
-Expand the Canvas section and disable both MLOps settings and disable `Enable local file uplload`
+Expand the Canvas section and disable Amazon Q and disable both MLOps settings and disable `Enable local file upload`
 ![Canvas](img/Canvas.png)
 
 Under `Canvas Ready-to-use models configuration` select `Use an existing execution role`
@@ -111,7 +111,6 @@ Under `Canvas Ready-to-use models configuration` select `Use an existing executi
 On the `Customize Studio UI` screen click Next.
 On the `Data and Storage` screen, do not change anything, click Next.
 Click Submit.
-
 
 Click `User Profile` and on your user click `Launch` and select `Studio`
 ![Launch](img/Launch2.png)
