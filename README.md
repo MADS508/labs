@@ -1,6 +1,6 @@
 # ADS-508
 This repo is adapted from the official [Data Science on AWS repo](https://github.com/data-science-on-aws/data-science-on-aws) and adjusted to reflect the capabilities of AWS Learner Labs.
-[![Data Science on AWS](img/data-science-on-aws-book.png)](https://www.amazon.com/Data-Science-AWS-End-End/dp/1492079391/)
+[<img src="img/data-science-on-aws-book.png" width=50% alt="Data Science on AWS Book Cover"/>](https://www.amazon.com/Data-Science-AWS-End-End/dp/1492079391/)
 
 
 # Important! :warning::warning::warning:
