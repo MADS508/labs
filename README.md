@@ -37,7 +37,7 @@ Within the Learner Lab Setup Guide follow the steps in the [Using Your Learner L
 ![LearnerLabStep4](img/LearnerLabsStep4.png)
 
 
-## 3. Launch SageMaker Studio
+## 3. Launch Amazon SageMaker AI
 
 In the AWS Console search bar, type `SageMaker` and select `Amazon SageMaker AI` to open the service console.
 
@@ -124,23 +124,21 @@ Enter a name for your space and click `Create Space` *It is suggested to make on
 ![JupyterLab2](img/JupyterLab2.png)
 
 Change instance to `ml.m5.xlarge` and change storage to `25` then click Run Space
-![JupyterLab3](img/JupyterLab2.png)
+![JupyterLab3](img/JupyterLab3.png)
 
-## 4. Launch a New Terminal within Studio
+Once your JupyterLab space has been created, click the `Open` button.
+![JupyterLab4](img/JupyterLab4.png)
+
+## 4. Launch a New Terminal within JupyterLab
 
 Click `File` > `New` > `Terminal` to launch a terminal in your Jupyter instance.
-
 ![Terminal Studio](img/studio_terminal.png)
 
 
 ## 5. Clone this GitHub Repo in the Terminal
 
 Within the Terminal, run the following:
-
-```
-cd ~ && git clone -b main https://github.com/mads508/labs.git
-
-```
+`git clone -b main https://github.com/mads508/labs.git`
 
 If you see an error like the following, just re-run the command again until it works:
 ```
@@ -159,5 +157,4 @@ _Note:  Just re-run the command again until it works._
 - Click `labs`
 - Click `01_oreilly_book`
 - Double Click `01_Setup_Dependencies.ipynb`
-- **NEW FOR 2024** When you open a new file, Sagemaker will ask you to pick an environment. You must change the image to `Data Science 2.0` or the labs in this class will not run.
-![DS2](img/DS2.png)
+- Use the default kernel `Python 3 (ipykernel)`, 
