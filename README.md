@@ -50,10 +50,8 @@ Select `Studio` and then click the button `Set up for organization`
 Select the `Set up for organizations` option.
 ![Quick Start](img/sm-quickstart-iam-existing-2_1.png)
 
-For the domain name enter `lab` and click next.
-![Domain Name](img/LearnerLabs_domain_name.png)
-
-For How do you want to access studio, choose Login through IAM
+- For the domain name enter `lab`
+- For How do you want to access studio, choose Login through IAM
 - Leave Who will use Sagemaker blank
 - Choose Next.
 - If there is a red warning banner that complains about `There is an issue when requesting the service quota. Please try again.`, Ignore it it will not impact your Lab.
@@ -77,7 +75,9 @@ Under `Canvas Ready-to-use models configuration` select `Use an existing executi
 - Replace `834486164294` from `arn:aws:iam::834486164294:role/LabRole` with your account ID (removing the `-`s)
 ![Time Series](img/CanvasIAM.png)
 
-For Network, choose public internet access.  Select an existing VPC and an existing subnet, then choose Next. Accept the default storage settings and choose Next, then choose Submit.
+For the `Customize Studio UI` step, leave the defaults and click Next.
+
+For Network, choose public internet access.  Select the existing VPC and all subnets, select the security group named `default`, then choose Next. 
 ![Network](img/Network.png)
 
 On the Storage screen, leave the settings as is and click next.
