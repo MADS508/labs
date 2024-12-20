@@ -87,7 +87,7 @@ On the Review and create screen, confirm all of the settings followed the above,
 Wait 10-15 minutes for the studio to build. It only takes this long on initial setup, in the future it will take 2-3 minutes to access an existing studio.
 ![Pending Studio](img/studio_pending.png)
 
-Open the studio by clicking `Domain` and then select your domain name, it should be `lab`
+Open the studio by clicking `Domain` and then select your domain name.
 ![Open Studio](img/SelectDomain.png)
 
 Select `User profiles` and then click `Add user`
@@ -108,16 +108,23 @@ Under `Canvas Ready-to-use models configuration` select `Use an existing executi
 - Replace `834486164294` from `arn:aws:iam::834486164294:role/LabRole` with your account ID (removing the `-`s)
 ![Time Series](img/CanvasIAM.png)
 
-On the `Customize Studio UI` screen click Next.
-On the `Data and Storage` screen, do not change anything, click Next.
-Click Submit.
+- On the `Customize Studio UI` screen click Next.
+
+- On the `Data and Storage` screen, do not change anything, click Next.
+
+- On the review screen, click Submit.
 
 Click `User Profile` and on your user click `Launch` and select `Studio`
 ![Launch](img/Launch2.png)
 
-Wait 2-3 minutes for the studio to launch.
-![Loading Studio](img/studio_loading.png)
+On the left click the `JupyterLab` icon, then click the `Create JupyterLab Space` button on the top right
+![JupyterLab1](img/JupyterLab1.png)
 
+Enter a name for your space and click `Create Space` *It is suggested to make one named `lab` and one named `project`.*
+![JupyterLab2](img/JupyterLab2.png)
+
+Change instance to `ml.m5.xlarge` and change storage to `25` then click Run Space
+![JupyterLab3](img/JupyterLab2.png)
 
 ## 4. Launch a New Terminal within Studio
 
