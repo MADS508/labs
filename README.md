@@ -121,7 +121,7 @@ On the left click the `JupyterLab` icon, then click the `Create JupyterLab Space
 ![JupyterLab1](img/JupyterLab1.png)
 
 Enter a name for your space and click `Create Space` *It is suggested to make one named `lab` and one named `project`.*
-![JupyterLab2](img/JupyterLab2.png)
+![JupyterLab2](img/NewJupyterLab2.png)
 
 Change instance to `ml.m5.xlarge` and change storage to `25` then click Run Space
 ![JupyterLab3](img/JupyterLab3.png)
