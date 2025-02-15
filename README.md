@@ -41,7 +41,7 @@ Within the Learner Lab Setup Guide follow the steps in the [Using Your Learner L
 
 In the AWS Console search bar, type `SageMaker` and select `Amazon SageMaker AI` to open the service console.
 
-Search for and select `SageMaker`
+Search for and select `Amazon SageMaker AI`
 ![Search Box - SageMaker](img/search-box-sagemaker.png)
 
 Select `Studio` and then click the button `Set up for organization`
