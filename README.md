@@ -189,7 +189,7 @@ You can use this bucket policy as a starting spot, be sure to change the bucket 
 			"Action": "s3:ListBucket",
 			"Resource": [
 				"arn:aws:s3:::scoyne-test202507",
-				"arn:aws:s3:::test202507/*"
+				"arn:aws:s3:::scoyne-test202507/*"
 			]
 		}
 	]
