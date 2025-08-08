@@ -162,5 +162,6 @@ _Note:  Just re-run the command again until it works._
 
 # Shutting Down Sagemaker: Important! :warning::warning::warning:
 When you are done working for the day (or more than 1 hour) you must shutdown both Jupyter Labs AND Learner Labs, else you will continue to spend budget. This video shows how.
-[<img src="img/youtube_screen.png" width="100%">]([https://youtu.be/-fm_Blh1m7c](https://youtu.be/DczkVcBFkUg))
+[<img src="img/youtube_screen.png" width="100%">](https://youtu.be/DczkVcBFkUg)
+
 
