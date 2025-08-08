@@ -157,4 +157,10 @@ _Note:  Just re-run the command again until it works._
 - Click `labs`
 - Click `01_oreilly_book`
 - Double Click `01_Setup_Dependencies.ipynb`
-- Use the default kernel `Python 3 (ipykernel)`, 
+- Use the default kernel `Python 3 (ipykernel)`
+
+
+# Shutting Down Sagemaker: Important! :warning::warning::warning:
+When you are done working for the day (or more than 1 hour) you must shutdown both Jupyter Labs AND Learner Labs, else you will continue to spend budget. This video shows how.
+[<img src="img/youtube_screen.png" width="100%">]([https://youtu.be/-fm_Blh1m7c](https://youtu.be/DczkVcBFkUg))
+
