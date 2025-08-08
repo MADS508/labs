@@ -195,3 +195,7 @@ You can use this bucket policy as a starting spot, be sure to change the bucket 
 	]
 }
 ```
+
+# Creating Athena Tables for Multiple Datasets
+If you use AWS Athena and have more than one file format, its important they you copy your source data from your public bucket into your sagemaker generated S3 bucket, and structure them into folders so that Athena can read the data. This short video explains how.
+[<img src="img/youtube_screen.png" width="100%">](https://youtu.be/dPrV-qEYQPk)
