@@ -166,7 +166,7 @@ When you are done working for the day (or more than 1 hour) you must shutdown bo
 
 # Creating a Public S3 Bucket
 In order to easily share your source files, you may want to upload them to S3. In order to do this one group member will need to make a public S3 bucket and load the source files to it. This will allow other group members to read (not write to the bucket) the raw files, in order to copy them to their Sagemaker space/own bucket for processing.
-[<img src="img/youtube_screen.png" width="100%">](https://youtu.be/DczkVcBFkUg)
+[<img src="img/youtube_screen.png" width="100%">](https://youtu.be/ZvOR2RgGLNY)
 You can use this bucket policy as a starting spot, be sure to change the bucket name to your bucket name.
 ```
 {
