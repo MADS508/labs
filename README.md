@@ -196,7 +196,7 @@ You can use this bucket policy as a starting spot, be sure to change the bucket 
 ```
 
 # Using Github with Sagemaker for your project
-If you are having trouble connecitng your project github repo to Sagemaker, give this a watch.
+If you are having trouble connecting your project github repo to Sagemaker, give this a watch.
 [<img src="img/youtube_screen.png" width="100%">](https://youtu.be/D6U8BkEAM1c)
 
 # Creating Athena Tables for Multiple Datasets
