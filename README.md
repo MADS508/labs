@@ -159,7 +159,6 @@ _Note:  Just re-run the command again until it works._
 - Double Click `01_Setup_Dependencies.ipynb`
 - Use the default kernel `Python 3 (ipykernel)`
 
-
 # Shutting Down Sagemaker: Important! :warning::warning::warning:
 When you are done working for the day (or more than 1 hour) you must shutdown both Jupyter Labs AND Learner Labs, else you will continue to spend budget. This video shows how.
 [<img src="img/youtube_screen.png" width="100%">](https://youtu.be/DczkVcBFkUg)
@@ -195,6 +194,10 @@ You can use this bucket policy as a starting spot, be sure to change the bucket 
 	]
 }
 ```
+
+# Using Github with Sagemaker for your project
+If you are having trouble connecitng your project github repo to Sagemaker, give this a watch.
+[<img src="img/youtube_screen.png" width="100%">](https://youtu.be/D6U8BkEAM1c)
 
 # Creating Athena Tables for Multiple Datasets
 If you use AWS Athena and have more than one file format, its important they you copy your source data from your public bucket into your sagemaker generated S3 bucket, and structure them into folders so that Athena can read the data. This short video explains how.
