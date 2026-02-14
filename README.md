@@ -45,6 +45,7 @@ Search for and select `Amazon SageMaker AI`
 ![Search Box - SageMaker](img/search-box-sagemaker.png)
 
 At this point you may see an error. Expand left sidebar, click domains and then create domainsit should take you to https://us-east-1.console.aws.amazon.com/datazone/home?region=us-east-1#/createv2 (you can ignore the red error on this page)
+![Error](img/error.png)
 
 
 Select `Studio` and then click the button `Set up for organization`
